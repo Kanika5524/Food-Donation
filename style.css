@@ -1,0 +1,294 @@
+/* * {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img {
+  width: 50%;
+  border-radius: 10px;
+  margin-left: 700px;
+  margin-top: 0px;
+}
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: #f57c00;
+
+}
+
+header .navbar{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .nav-menu{
+  display: flex;
+  gap: 20px;
+  margin-left: 570px;
+}
+
+.navbar .nav-menu .nav-link{
+  color:#003049;
+  padding: 10px 18px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navbar .nav-menu .nav-link:hover{
+  background-color: #003049;
+  color: gold;
+}
+
+.idea{
+  color:wheat;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.start-section{
+  min-height: 100vh;
+  background:#f57c00 ;
+  padding:100px;
+}
+.start-section .section-content{
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.start-section .start-details .title{
+  font-size: 50px;
+  color:#540b0e ;
+  font-family: 'Brush Script MT', cursive;
+}
+.start-section .start-details .subtitle{
+  margin-top:10px ;
+  max-width: 60%;
+  font-size: 30px;
+  font-weight: 900;
+  font-family:"Dancing Script";
+  color:wheat
+
+} */
+
+
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color:brown;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.idea {
+  color: wheat;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  color: wheat;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: gold;
+  color: #003049;
+}
+
+.start-section {
+  background: #f57c00;
+  padding-top: 120px; /* space for fixed header */
+  padding-left: 80px;
+  padding-right: 80px;
+  min-height: 100vh;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.start-details {
+  max-width: 50%;
+  color: white;
+}
+
+.title {
+  font-size: 50px;
+  color: #540b0e;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Dancing Script", cursive;
+  color: wheat;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: white;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button a {
+  background-color: #003049;
+  color: gold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.image img {
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.end-footer {
+  background-color: #003049;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.footer-note {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.contact-container {
+  background-color: #002437;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.contact-container h4 {
+  color: wheat;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.contact-container p {
+  color: wheat;
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+
+.main-footer {
+  background-color:#003049;
+  color: wheat;
+  font-family: sans-serif;
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 20px;
+  flex-wrap: wrap;
+}
+
+.footer-column h3 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-column p {
+  margin: 6px 0;
+  color: wheat;
+}
+
+.footer-column a {
+  color: wheat;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: orange;
+}
+
+.footer-bottom {
+  background-color:#003049;
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  font-size: 14px;
+}
