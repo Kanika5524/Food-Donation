@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #003049;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.card {
+  margin-top: 70px;
+  background: #003490;
+  padding: 25px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+.card h2 {
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+.highlight-org {
+  color: limegreen;
+}
+
+.highlight-donor {
+  color: orange;
+}
+
+button {
+  padding: 10px 20px;
+  background: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
