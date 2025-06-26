@@ -14,26 +14,26 @@
 
   <div class="form-box">
     <h2>Create Account</h2>
-    <form>
+    <form action="https://sheetdb.io/api/v1/pjx8umtd4b58g" method="post">
       <div class="form-row">
-        <input type="text" placeholder="Enter Organization Name" required />
-        <input type="text" placeholder="Enter State" required />
+        <input type="text" name="data[org name]" placeholder="Enter Organization Name" required />
+        <input type="text" name="data[state]" placeholder="Enter State" required />
       </div>
       <div class="form-row">
-        <input type="text" placeholder="Enter District" required />
-        <input type="text" placeholder="Enter City Name" required />
+        <input type="text" name="data[district]" placeholder="Enter District" required />
+        <input type="text" name="data[city]" placeholder="Enter City Name" required />
       </div>
       <div class="form-row">
-        <input type="text" placeholder="Enter Street Name" required />
-        <input type="text" placeholder="Enter Pin Code" required />
+        <input type="text" name="data[street]" placeholder="Enter Street Name" required />
+        <input type="text" name="data[pincode]" placeholder="Enter Pin Code" required />
       </div>
       <div class="form-row">
-        <input type="text" placeholder="Enter Phone Number" required />
-        <input type="email" placeholder="Enter Email" required />
+        <input type="text" name="data[phone]" placeholder="Enter Phone Number" required />
+        <input type="email" name="data[email]" placeholder="Enter Email" required />
       </div>
       <div class="form-row">
-        <input type="password" placeholder="Enter Password" required />
-        <input type="password" placeholder="Re-Enter Password" required />
+        <input type="password"  name="data[password]" placeholder="Enter Password" required />
+        <input type="password"  name="data[confirm password]" placeholder="Re-Enter Password" required />
       </div>
       <button type="submit">Register</button>
       <p class="login-link">Already have an account? <a href="./login_index.html">Login</a></p>
