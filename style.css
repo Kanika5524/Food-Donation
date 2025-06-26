@@ -161,7 +161,7 @@ header {
 
 .start-section {
   background: #f57c00;
-  padding-top: 120px; /* space for fixed header */
+  padding-top: 120px; 
   padding-left: 80px;
   padding-right: 80px;
   min-height: 100vh;
